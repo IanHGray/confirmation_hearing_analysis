@@ -1,17 +1,9 @@
 # confirmation_hearing_analysis
-Text analysis repository designed to work with the R Street Institute's "Confirmation Hearings" dataset.
+Text analysis repository designed to work with the R Street Institute's "Confirmation Hearings" dataset. A link to this data can be found here: https://www.rstreet.org/2019/04/04/supreme-court-confirmation-hearing-transcripts-as-data/
 
-The current script pre-processes the raw text data from the "Statements" column, then calculates and plots the most frequently occurring words for a given hearing. Specific speakers (such as a Senator or the nominee themselves) can be optionally selected.
+This repository includes a Jupyter notebook ("hearing_analysis.ipynb") that serves as a starting point for pre-processing the data and performing some summary-level analysis of the text. This includes word count over time by party, sentiment over time by party, word count over time by hearing role, most verbose senators per hearing, and a wordcloud generator for a given senator in a given hearing.
 
-This analysis is *very* basic, but should serve as a solid starting point for this dataset. Some key next steps:
-
-   Identify stopwords (or junk terms that add no analytical value) that are specific to these types of hearings. I've added              "confirmation_hearing_stopwords.py" as a repository for these terms.
-
-   Named Entity Recognition: Programatically identify key people, organizations, or concepts that are being discussed during       the hearings, and track how they change over time, how they are treated by the two parties, etc.
-
-  Sentiment analysis: What is the tone associated with each hearing? Can we identify any long term trends here? 
-  
-  Cluster Analysis: What are the key points, from a statistical standpoint, in each hearing? What subjects have the greatest weight?
+Some key next steps for this datset would be developing a more tailored and robust list of stopwords (or junk words that provide no analytical value) that is specific to the confirmation hearing process. Additionally, it might be interesting to perform named entity recognition on this dataset--to determine which subjects occur frequently in individual hearings and across time--and then try a network analysis of which Senators discuss which subjects in what context.
 
 If you have any thoughts or ideas, please email me at gray.ian.hunter@gmail.com.
 
