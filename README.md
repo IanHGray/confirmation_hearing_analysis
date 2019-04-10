@@ -11,4 +11,4 @@ If you have any thoughts or ideas, please email me at gray.ian.hunter@gmail.com.
 
 Kudos to the RSI team for putting this data together!
 
-(Note: If you're having trouble viewing the Jupyter notebooks, try copying and pasting the notebook link into this webdsite: https://nbviewer.jupyter.org)
+(Note: If you're having trouble viewing the Jupyter notebooks, try copying and pasting the notebook link into this website: https://nbviewer.jupyter.org)
