@@ -3,7 +3,9 @@ Text analysis repository designed to work with the R Street Institute's "Confirm
 
 This repository includes a Jupyter notebook ("hearing_analysis.ipynb") that serves as a starting point for pre-processing the data and performing some summary-level analysis of the text. This includes word count over time by party, sentiment over time by party, word count over time by hearing role, most verbose senators per hearing, and a wordcloud generator for a given senator in a given hearing.
 
-Some key next steps for this datset would be developing a more tailored and robust list of stopwords (or junk words that provide no analytical value) that is specific to the confirmation hearing process. Additionally, it might be interesting to perform named entity recognition on this dataset--to determine which subjects occur frequently in individual hearings and across time--and then try a network analysis of which Senators discuss which subjects in what context.
+A second notebook ("confirmation_hearing_entities.ipynb") dives into some more advanced analysis, utilizing Named Entity Recognition to extract key topics, people, and organizations from the hearings. This could serve as a useful starting point for research projects, particularly those concerned with how different issues evolve in importance over time.
+
+A key next step for this dataset would be to develop a more tailored and robust list of stopwords (or junk words that provide no analytical value) that is specific to the confirmation hearing process. Additionally, it might be interesting to perform a network analysis of named entities to determine which Senators discuss which subjects in what context.
 
 If you have any thoughts or ideas, please email me at gray.ian.hunter@gmail.com.
 
